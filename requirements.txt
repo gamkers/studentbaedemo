@@ -5,4 +5,4 @@ huggingface-hub
 streamlit
 streamlit_option_menu
 youtube-search-python
-googlesearch
+googlesearch-python
