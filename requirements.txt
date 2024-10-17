@@ -6,7 +6,6 @@ streamlit
 python-dotenv
 unstructured
 sentence-transformers
-faiss-gpu
 unstructured[pdf]
 PyPDF2
 io
