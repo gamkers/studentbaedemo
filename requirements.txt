@@ -6,3 +6,4 @@ streamlit
 streamlit_option_menu
 youtube-search-python
 googlesearch-python
+PyPDF2
