@@ -4,5 +4,5 @@ langchain-groq
 huggingface-hub
 streamlit
 streamlit_option_menu
-youtubesearchpython
+youtube-search-python
 googlesearch
