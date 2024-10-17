@@ -3,10 +3,6 @@ langchain-community
 langchain-groq
 huggingface-hub
 streamlit
-python-dotenv
-unstructured
-sentence-transformers
-io
 streamlit_option_menu
 youtubesearchpython
 googlesearch
