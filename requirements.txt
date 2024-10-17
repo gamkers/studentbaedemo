@@ -5,5 +5,5 @@ huggingface-hub
 streamlit
 streamlit_option_menu
 youtube-search-python
-googlesearch-python
+google-search
 PyPDF2
