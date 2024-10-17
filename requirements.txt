@@ -6,7 +6,6 @@ streamlit
 python-dotenv
 unstructured
 sentence-transformers
-unstructured[pdf]
 io
 streamlit_option_menu
 youtubesearchpython
