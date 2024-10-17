@@ -265,7 +265,7 @@ def main():
     if st.session_state.react_agent_executor is None:
         llm = ChatGroq(model_name="mixtral-8x7b-32768", groq_api_key=groq_api_key)
         prompt_react = hub.pull("hwchase17/react")
-        react_agent = create_react_agent(llm, tools=tools, prompt=prompt_react+"*IMPORTANT NOTE* Add you answers for 10 lines without using tools also and provide a video and a pdf")
+        react_agent = create_react_agent(llm, tools=tools, prompt=prompt_react+"*IMPORTANT NOTE* Add you answer in a brief without using tools also and provide a resource at the end using tools")
         st.session_state.react_agent_executor = AgentExecutor(agent=react_agent, tools=tools, verbose=True, handle_parsing_errors=True)
 
     # Main content area
